@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { type Flags } from "../types";
+import { type Flags } from "..";
 import { FlagsContext } from ".";
 
 /**
