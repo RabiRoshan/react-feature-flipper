@@ -10,8 +10,8 @@ export default defineConfig({
     // https://vitejs.dev/guide/build.html#library-mode
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "my-lib",
-      fileName: "my-lib",
+      name: "react-feature-flipper",
+      fileName: "react-feature-flipper",
     },
   },
   plugins: [dts()],

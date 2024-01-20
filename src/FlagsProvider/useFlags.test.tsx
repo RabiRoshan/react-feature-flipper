@@ -1,7 +1,7 @@
 import { renderHook } from "@testing-library/react";
 import { describe, it, expect } from "vitest";
 import { useFlags } from "./useFlags";
-import { FlagsProvider } from "./FlagsProvider";
+import { FlagsProvider } from ".";
 
 describe("useFlags hook", () => {
   it("should throw an error when used outside of FlagsProvider", () => {
