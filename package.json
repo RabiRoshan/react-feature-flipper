@@ -1,5 +1,5 @@
 {
-  "name": "react-feature-flipper",
+  "name": "@rabi_roshan/react-feature-flipper",
   "version": "0.0.0-development",
   "type": "module",
   "main": "./dist/react-feature-flipper.umd.cjs",
