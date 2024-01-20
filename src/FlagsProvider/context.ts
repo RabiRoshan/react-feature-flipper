@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { type Flags } from "../types";
+import { type Flags } from "..";
 
 /**
  * Interface defining the shape of the context state for feature flags.

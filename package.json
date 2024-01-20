@@ -4,7 +4,6 @@
   "type": "module",
   "main": "./dist/react-feature-flipper.umd.cjs",
   "module": "./dist/react-feature-flipper.js",
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/react-feature-flipper.js",
