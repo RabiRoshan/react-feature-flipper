@@ -1,24 +1,22 @@
 {
   "name": "react-feature-flipper",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "main": "./dist/my-lib.umd.cjs",
-  "module": "./dist/my-lib.js",
+  "main": "./dist/react-feature-flipper.umd.cjs",
+  "module": "./dist/react-feature-flipper.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.js",
-      "require": "./dist/my-lib.umd.cjs"
+      "import": "./dist/react-feature-flipper.js",
+      "require": "./dist/react-feature-flipper.umd.cjs"
     }
   },
   "files": [
     "dist"
   ],
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
     "test": "vitest"
   },
   "peerDependencies": {
@@ -44,5 +42,32 @@
     "vite": "^5.0.8",
     "vite-plugin-dts": "^3.7.1",
     "vitest": "^1.2.1"
-  }
+  },
+  "description": "Effortlessly manage feature flags in React. Simplify flag distribution and control across your application.",
+  "author": "Rabi Roshan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RabiRoshan/react-feature-flipper.git"
+  },
+  "keywords": [
+    "react-feature-flipper",
+    "react-feature-flag",
+    "react-feature-flags",
+    "react-flags",
+    "flag",
+    "flags",
+    "react",
+    "feature",
+    "flipper",
+    "feature-toggle",
+    "feature-switch",
+    "conditional-rendering",
+    "experimentation",
+    "a/b-testing",
+    "rollout",
+    "feature-management",
+    "configuration",
+    "dynamic-features"
+  ]
 }
