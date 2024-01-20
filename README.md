@@ -12,13 +12,13 @@ Effortlessly manage feature flags in React. `react-feature-flipper` simplifies f
 ## Installation
 
 ```bash
-npm install react-feature-flipper
+npm install @rabi_roshan/react-feature-flipper
 ```
 
 Or
 
 ```bash
-yarn add react-feature-flipper
+yarn add @rabi_roshan/react-feature-flipper
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ yarn add react-feature-flipper
 
 ```jsx
 import React from "react";
-import { FlagsProvider, Flipper } from "react-feature-flipper";
+import { FlagsProvider, Flipper } from "@rabi_roshan/react-feature-flipper";
 
 const App = () => {
   return (
@@ -48,7 +48,7 @@ export default App;
 
 ```jsx
 import React from "react";
-import { useFlags, FlagsProvider } from "react-feature-flipper";
+import { useFlags, FlagsProvider } from "@rabi_roshan/react-feature-flipper";
 
 const MyComponent = () => {
   const { flags, setFlags } = useFlags();
