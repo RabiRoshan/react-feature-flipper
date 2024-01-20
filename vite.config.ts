@@ -1,15 +1,13 @@
-// vite.config.ts
-
-/// <reference types="vitest" />
 // Configure Vitest (https://vitest.dev/config/)
+/// <reference types="vitest" />
 
 import { resolve } from "path";
 import { defineConfig } from "vite";
 import dts from "vite-plugin-dts";
 
-// https://vitejs.dev/guide/build.html#library-mode
 export default defineConfig({
   build: {
+    // https://vitejs.dev/guide/build.html#library-mode
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
       name: "my-lib",
@@ -18,6 +16,7 @@ export default defineConfig({
   },
   plugins: [dts()],
   test: {
-    //...
+    globals: true,
+    environment: "jsdom",
   },
 });
